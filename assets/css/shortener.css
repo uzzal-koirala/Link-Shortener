@@ -1,0 +1,100 @@
+/* ===============================
+   Nepsus Link Shortener Styles
+   =============================== */
+
+.nepsus-short-box * {
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+.nepsus-short-box {
+    max-width: 480px;
+    margin: 20px auto;
+    padding: 24px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+.nepsus-short-box h5 {
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Input */
+.nepsus-short-box input[type="url"],
+.nepsus-short-result input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #3151FE;
+    border-radius: 6px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Main Button */
+.nepsus-short-btn {
+    width: 100%;
+    padding: 14px;
+    background: #3151FE;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.nepsus-short-btn:hover {
+    background: #253fe0;
+}
+
+/* Result Box */
+.nepsus-short-result {
+    margin-top: 15px;
+    padding: 12px;
+    background: #f1f4ff;
+    border-left: 4px solid #3151FE;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Button Group */
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.copy-btn,
+.clear-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+}
+
+.copy-btn {
+    background: #3151FE;
+    color: #ffffff;
+}
+
+.copy-btn:hover {
+    background: #253fe0;
+}
+
+.clear-btn {
+    background: #dddddd;
+    color: #333333;
+}
+
+.clear-btn:hover {
+    background: #cccccc;
+}
