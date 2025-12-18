@@ -84,7 +84,7 @@ function nepsus_fast_shortener() {
 
                 <div class="button-group">
                     <button type="button" class="copy-btn" data-copy>
-                        Copy
+                        Copy link
                     </button>
 
                     <button type="button" class="clear-btn" data-clear>
