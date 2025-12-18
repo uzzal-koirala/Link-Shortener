@@ -88,7 +88,7 @@ function nepsus_fast_shortener() {
                     </button>
 
                     <button type="button" class="clear-btn" data-clear>
-                        Clear
+                        Clear link
                     </button>
                 </div>
 
